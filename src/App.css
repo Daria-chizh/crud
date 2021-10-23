@@ -1,0 +1,61 @@
+.index-add-form {
+  position: relative;
+  display: inline-flex;
+}
+
+button[name="submit"] {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  width: 30px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 20px;
+  background-color: white;
+}
+
+input.text-field {
+  min-height: 150px;
+  width: 250px;
+  padding: 2px 0;
+}
+
+.add-text-field {
+  min-height: 150px;
+  width: 250px;
+  border: 1px solid grey;
+}
+
+.button-update {
+  display: flex;
+}
+
+.update {
+  width: 30px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.note {
+  position: relative;
+  display: inline-flex;
+  margin: 10px;
+}
+
+.close {
+  position: absolute;
+  right: -5px;
+  top: -10px;
+  width:30px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 20px;
+
+}
